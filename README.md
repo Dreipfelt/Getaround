@@ -1,10 +1,10 @@
 # GetAround – Delay Analysis & Pricing API
 
 This project was built as part of the CDSD certification.  
-It analyzes rental delays on GetAround vehicles and provides:
+It analyses rental delays on GetAround vehicles and provides:
 
 - An interactive **Streamlit dashboard** for delay analysis & buffer simulation.
-- A **FastAPI pricing API** using a model optimized with GridSearchCV.
+- A **FastAPI pricing API** using a model optimised with GridSearchCV.
 - A clean, reproducible ML pipeline and documented repository structure.
 
 ---
