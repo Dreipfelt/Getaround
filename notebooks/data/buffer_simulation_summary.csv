@@ -1,0 +1,7 @@
+buffer_minutes,n_blocked_rentals,n_problematic_current,n_problematic_solved
+0,0,270,0
+10,244,270,20
+30,244,270,45
+60,358,270,94
+90,518,270,129
+120,592,270,150

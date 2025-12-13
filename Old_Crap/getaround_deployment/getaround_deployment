@@ -1,0 +1,18 @@
+getaround_deployment/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+│   ├── get_around_delay_analysis.xlsx
+│   └── get_around_pricing_project.csv
+├── notebooks/
+│   ├── 01_delay_analysis_eda.ipynb
+│   └── 02_pricing_modeling.ipynb
+├── dashboard/
+│   └── app.py
+├── api/
+│   ├── main.py
+│   ├── model.joblib          # créé après entraînement dans 02_pricing_modeling.ipynb
+│   └── preprocessor.joblib   # optionnel si tu sépares les transformations
+└── docs/
+    └── index.html            # page documentant l’API (/docs)

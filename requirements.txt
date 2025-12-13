@@ -1,0 +1,22 @@
+# Core scientific stack
+pandas
+numpy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dashboard
+streamlit
+
+# API
+fastapi
+uvicorn
+
+# Model persistence
+joblib
+
+# Excel / file formats
+openpyxl
