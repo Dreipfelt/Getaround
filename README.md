@@ -21,28 +21,26 @@
 - Full ML pipeline (preprocessing + RandomForest) exported as `model.joblib`
 
 ---
-
-## 📁 Repository Structure
+text 
 Project_GetAround/
 ├── api/
-│   ├── main.py                  # FastAPI app (/predict, /docs)
-│   └── model.joblib             # Trained pricing pipeline
+│   ├── main.py                       # FastAPI app (predict + docs)
+│   └── model.joblib                  # Trained pricing pipeline
 │
 ├── dashboard/
-│   └── app.py                   # Streamlit dashboard (delays + buffer sim)
+│   └── app.py                        # Streamlit dashboard (delays + buffer sim)
 │
 ├── notebooks/
-│   ├── 01_delay_analysis_eda.ipynb      # Delay KPIs + buffer simulation
-│   └── 02_pricing_modeling.ipynb        # Pricing model training
+│   ├── 01_delay_analysis_eda.ipynb   # Delay KPIs + buffer simulation
+│   └── 02_pricing_modeling.ipynb     # Pricing model training
 │
 ├── data/
-│   └── buffer_simulation_summary.csv    # Generated from dashboard
+│   └── buffer_simulation_summary.csv # Generated from dashboard
 │
-├── requirements.txt             # pip install -r requirements.txt
+├── requirements.txt                  # pip install -r requirements.txt
 ├── README.md
 └── .gitignore
 
----
 
 ## 🚀 Quick Start (Local)
 cd Getaround
