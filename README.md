@@ -23,18 +23,25 @@
 ---
 
 ## 📁 Repository Structure
+## 📁 Project Structure
+
+```text
 Project_GetAround/
 ├── api/
-│ ├── main.py # FastAPI app (/predict, /docs)
-│ └── model.joblib # Trained pricing pipeline
+│   ├── main.py                       # FastAPI API (predict + docs)
+│   └── model.joblib                  # Trained ML model
+│
 ├── dashboard/
-│ └── app.py # Streamlit dashboard (delays + buffer sim)
+│   └── app.py                        # Streamlit dashboard
+│
 ├── notebooks/
-│ ├── 01_delay_analysis_eda.ipynb # Delay KPIs + buffer simulation
-│ └── 02_pricing_modeling.ipynb # Pricing model training
-├── data/ # (generated)
-│ └── buffer_simulation_summary.csv
-├── requirements.txt # pip install -r requirements.txt
+│   ├── 01_delay_analysis_eda.ipynb   # Delay analysis
+│   └── 02_pricing_modeling.ipynb     # Pricing ML modeling
+│
+├── data/
+│   └── buffer_simulation_summary.csv
+│
+├── requirements.txt
 ├── README.md
 └── .gitignore
 
