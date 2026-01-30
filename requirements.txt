@@ -1,22 +1,4 @@
-# Core scientific stack
+streamlit==1.32.0
 pandas
-numpy
-scikit-learn
-
-# Visualization
-matplotlib
-seaborn
 plotly
-
-# Dashboard
-streamlit
-
-# API
-fastapi
-uvicorn
-
-# Model persistence
-joblib
-
-# Excel / file formats
 openpyxl
