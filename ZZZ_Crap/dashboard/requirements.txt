@@ -1,0 +1,15 @@
+getaround-cdsd/
+├── dashboard/
+│   ├── app.py
+│   └── requirements.txt
+├── api/
+│   ├── main.py
+│   └── requirements.txt
+├── notebooks/
+│   └── exploration.ipynb
+├── data/
+│   ├── get_around_delay_analysis.xlsx
+│   └── get_around_pricing_project.csv
+├── models/
+│   └── pricing_model.pkl
+└── README.md
